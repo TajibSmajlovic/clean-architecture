@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9E6DC133-9C0A-4EF4-9AD3-28C0C8892F1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{AED0AA20-DFA9-495D-8278-06AEB7DB547E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{29E7D20C-3953-43E2-A49C-4A8178FD16F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{ADE5B51B-D07C-4749-9D8B-5ADC31EE564D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8CF3A4EB-F375-4003-902A-9D21D9AD267D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kinoteka.TicketManagement.Domain", "Kinoteka.TicketManagement.Domain\Kinoteka.TicketManagement.Domain.csproj", "{3A60093A-0D46-44CE-839A-C324265B72B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kinoteka.TicketManagement.Application", "Kinoteka.TicketManagement.Application\Kinoteka.TicketManagement.Application.csproj", "{A62DEAC6-BACC-4F2F-A14E-F46B61CE9769}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kinoteka.TicketManagement.Persistance", "Kinoteka.TicketManagement.Persistance\Kinoteka.TicketManagement.Persistance.csproj", "{F6E7BCD6-D835-413A-95EA-F5EC79C4709B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kinoteka.TicketManagement.Infrastructure", "Kinoteka.TicketManagement.Infrastructure\Kinoteka.TicketManagement.Infrastructure.csproj", "{92C28B9F-90E1-439B-A2D8-5F270577B598}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kinoteka.TicketManagement.Api", "Kinoteka.TicketManagement.Api\Kinoteka.TicketManagement.Api.csproj", "{2E3FAA82-4F9F-4794-9E0A-53C0935B1E9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinoteka.TicketManagement.Application.UnitTests", "Kinoteka.TicketManagement.Application.UnitTests\Kinoteka.TicketManagement.Application.UnitTests.csproj", "{D6E6A798-AC48-4C36-8246-7696AB53A151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinoteka.TicketManagement.Persistence.IntegrationTests", "Kinoteka.TicketManagement.Persistence.IntegrationTests\Kinoteka.TicketManagement.Persistence.IntegrationTests.csproj", "{9E7B7514-05BF-440A-9CD0-72F2F7450363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinoteka.TicketManagement.API.IntegrationTests", "Kinoteka.TicketManagement.API.IntegrationTests\Kinoteka.TicketManagement.API.IntegrationTests.csproj", "{FF52DD3B-C305-4D86-AB10-036E34B9DEFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A60093A-0D46-44CE-839A-C324265B72B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A60093A-0D46-44CE-839A-C324265B72B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A60093A-0D46-44CE-839A-C324265B72B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A60093A-0D46-44CE-839A-C324265B72B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A62DEAC6-BACC-4F2F-A14E-F46B61CE9769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A62DEAC6-BACC-4F2F-A14E-F46B61CE9769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A62DEAC6-BACC-4F2F-A14E-F46B61CE9769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A62DEAC6-BACC-4F2F-A14E-F46B61CE9769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E7BCD6-D835-413A-95EA-F5EC79C4709B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E7BCD6-D835-413A-95EA-F5EC79C4709B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E7BCD6-D835-413A-95EA-F5EC79C4709B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E7BCD6-D835-413A-95EA-F5EC79C4709B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92C28B9F-90E1-439B-A2D8-5F270577B598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92C28B9F-90E1-439B-A2D8-5F270577B598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92C28B9F-90E1-439B-A2D8-5F270577B598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92C28B9F-90E1-439B-A2D8-5F270577B598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E3FAA82-4F9F-4794-9E0A-53C0935B1E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E3FAA82-4F9F-4794-9E0A-53C0935B1E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E3FAA82-4F9F-4794-9E0A-53C0935B1E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E3FAA82-4F9F-4794-9E0A-53C0935B1E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6E6A798-AC48-4C36-8246-7696AB53A151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E6A798-AC48-4C36-8246-7696AB53A151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E6A798-AC48-4C36-8246-7696AB53A151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E6A798-AC48-4C36-8246-7696AB53A151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E7B7514-05BF-440A-9CD0-72F2F7450363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E7B7514-05BF-440A-9CD0-72F2F7450363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E7B7514-05BF-440A-9CD0-72F2F7450363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E7B7514-05BF-440A-9CD0-72F2F7450363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF52DD3B-C305-4D86-AB10-036E34B9DEFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF52DD3B-C305-4D86-AB10-036E34B9DEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF52DD3B-C305-4D86-AB10-036E34B9DEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF52DD3B-C305-4D86-AB10-036E34B9DEFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29E7D20C-3953-43E2-A49C-4A8178FD16F0} = {9E6DC133-9C0A-4EF4-9AD3-28C0C8892F1E}
+		{ADE5B51B-D07C-4749-9D8B-5ADC31EE564D} = {9E6DC133-9C0A-4EF4-9AD3-28C0C8892F1E}
+		{8CF3A4EB-F375-4003-902A-9D21D9AD267D} = {9E6DC133-9C0A-4EF4-9AD3-28C0C8892F1E}
+		{3A60093A-0D46-44CE-839A-C324265B72B1} = {ADE5B51B-D07C-4749-9D8B-5ADC31EE564D}
+		{A62DEAC6-BACC-4F2F-A14E-F46B61CE9769} = {ADE5B51B-D07C-4749-9D8B-5ADC31EE564D}
+		{F6E7BCD6-D835-413A-95EA-F5EC79C4709B} = {8CF3A4EB-F375-4003-902A-9D21D9AD267D}
+		{92C28B9F-90E1-439B-A2D8-5F270577B598} = {8CF3A4EB-F375-4003-902A-9D21D9AD267D}
+		{2E3FAA82-4F9F-4794-9E0A-53C0935B1E9C} = {29E7D20C-3953-43E2-A49C-4A8178FD16F0}
+		{D6E6A798-AC48-4C36-8246-7696AB53A151} = {AED0AA20-DFA9-495D-8278-06AEB7DB547E}
+		{9E7B7514-05BF-440A-9CD0-72F2F7450363} = {AED0AA20-DFA9-495D-8278-06AEB7DB547E}
+		{FF52DD3B-C305-4D86-AB10-036E34B9DEFB} = {AED0AA20-DFA9-495D-8278-06AEB7DB547E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E821DE3A-9EFF-4535-BF32-868C0948F632}
+	EndGlobalSection
+EndGlobal
